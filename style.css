@@ -1,14 +1,60 @@
 /* Your Styles Below Here */
 
-/* Class Example */
-.class {
-    background-color: white;
-    color: green;
+
+/* General */
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+img {
+    width: 100%;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    line-height: 4;
+    padding: 14px 24px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 
-/* ID Example */
-#id {
-    background-color: white;
-    color: green;
+/* Container */
+
+.container {
+    display: flex;
+    align-content: space-around;
+    flex-direction: row;
+    padding: 60px 20px;
+}
+
+.container-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+}
+
+
+/* Sections */
+
+.section-1 {
+    background: url('img/background.jpg') center;
+    color: white;
+    font-size: 32px;
+}
+
+.section-3 {
+    background-color: whitesmoke;
+}
+
+.section-5 {
+    background-color: darkgrey;
+    color: white;
 }
